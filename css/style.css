@@ -1,0 +1,371 @@
+body{
+    background-color: white;
+    margin: 0px;
+    font-family: 'Dosis', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    overflow: hidden;
+    height: 100px;
+    background-color: #17181C;
+    position: sticky;
+    top: 0px;
+    padding: 50px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.mw{
+    width: 60%;
+    margin: auto;
+}
+
+.logo{
+    height: 145px;
+}
+
+.menu{
+    font-size: 20px;
+    float: right;
+    transform: translateY(200%);
+}
+
+.list{
+    display: inline-block;
+    list-style: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.background1{
+    background-image: url('../assets/main.png');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.logo1{
+    height: 200px;
+    padding: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background2{
+    background-color: #17181C;
+    height: 600px;
+    overflow: hidden;
+}
+
+.container2{
+    text-align: center;
+    padding: 55px;
+}
+
+.content2{
+    display: inline-block;
+    padding: 22px;
+}
+
+.picture2{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title2{
+    color: white;
+    font-size: 22px;
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.text2{
+    color: white;
+    font-size: 18px;
+    max-width: 300px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.background3{
+    background-color: #1f1f22;
+    height: 400px;
+    overflow: hidden;
+    padding: 50px;
+}
+
+.mw3{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.picture3{
+    float: left;
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.p3{
+    float: right;
+}
+
+.title3{
+    color: white;
+    font-size: 30px;
+    max-width: 400px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.text3{
+    color: white;
+    font-size: 22px;
+    max-width: 400px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.background4{
+    background-color: #17181C;
+    height: 600px;
+    overflow: hidden;
+}
+
+.mw4{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.p4{
+    float: left;
+}
+
+.title4{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.text4{
+    color: white;
+    font-size: 22px;
+    margin-top: 0px;
+}
+
+.mapBox{
+    float: right;
+    height: 400px;
+    width: 600px;
+}
+
+.mapBox iframe{
+    height: 100%;
+    width: 100%;
+}
+
+.pd4{
+    padding-top: 80px;
+}
+
+footer{
+    height: 100px;
+    background-color: #1f1f22;
+    overflow: hidden;
+    padding: 30px;
+}
+
+.mw5{
+    width: 60%;
+    margin: auto;
+}
+
+.logo5{
+    float: left;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu5{
+    float: right;
+    padding: 0px;
+    margin: 0px;
+}
+
+.icon5{
+    height: 65px;
+}
+
+.list5{
+    list-style: none;
+    float: left;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1230px){
+    header{
+        height: 280px;
+        position: static;
+        text-align: center;
+    }
+
+    .logo{
+        float: none;
+    }
+
+    .menu{
+        font-size: 22px;
+        float: none;
+        margin: 0px;
+        padding: 0px;
+        transform: none;
+    }
+
+    .list{
+        display: block;
+        padding: 8px;
+    }
+    
+    .logo1{
+        height: 140px;
+        padding: 140px;
+    }
+
+    footer{
+        height: 200px;
+        text-align: center;
+        padding: 0px;
+        overflow: hidden;
+    }
+
+    .mw5{
+        width: 100%;
+    }
+
+    .content5{
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo5{
+        float: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .menu5{
+        float: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 1180px){
+    .background2{
+        height: 1600px;
+    }
+
+    .content2{
+        display: block;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .background3{
+        height: 680px;
+        text-align: center;
+    }
+    
+    .picture3{
+        float: none;
+        height: 300px;
+        width: 300px;
+    }
+    
+    .p3{
+        float: none;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+    }
+    
+    .title3{
+        font-size: 22px;
+    }
+    
+    .text3{
+        font-size: 18px;
+    }
+
+    .background4{
+        height: 900px;
+    }
+
+    .content4{
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mapBox{
+        text-align: center;
+        float: none;
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .mw{
+        width: 100%;
+    }
+
+    .logo1{
+        height: 100px;
+        padding: 100px;
+    }
+
+    .background2{
+        height: 1380px;
+    }
+
+    .content2{
+        max-width: 200px;
+    }
+
+    .picture2{
+        height: 200px;
+        width: 200px;
+    }
+
+    .background3{
+        height: 800px;
+    }
+
+    .picture3{
+        height: 200px;
+        width: 200px;
+    }
+
+    .p3{
+        max-width: 200px;
+    }
+}
